@@ -1,0 +1,6 @@
+.dom-line {
+  position: absolute;
+}
+.dom-line .line {
+  border-top: 1px solid red;
+}

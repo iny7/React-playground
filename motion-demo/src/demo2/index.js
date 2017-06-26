@@ -82,7 +82,9 @@ export default class Demo extends React.Component {
   };
 
   handleMouseUp = () => {
-    this.setState({isPressed: false, mouseCircleDelta: [0, 0]})
+    this.setState({
+      isPressed: false, mouseCircleDelta: [0, 0]
+    })
   };
 
   render() {
